@@ -1,12 +1,21 @@
-title: holaneu (Vladimir Holan)
+# Basic settings
+title: Holan Blog
 description: A blog about tech, life and my projects.
-url: "https://holaneu.github.io"
-baseurl: ""
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
+url: "https://holaneu.github.io" # replace with your actual GitHub username URL
+baseurl: "" # leave blank if you are not using a project-specific subfolder
+
+# Apply the Cayman theme
+theme: jekyll-theme-cayman
+
+# Optional - add author or other metadata
+author: holaneu
+
+# Optional - any plugins for additional functionality
 plugins:
-  - jekyll-feed
-  - jekyll-tagging
-tag_page_dir: "tags"
+  - jekyll-feed # enables Atom/RSS feeds for your site
+  - jekyll-tagging # enables tags if needed, ensure this plugin is allowed on GitHub Pages
+
+# Optional - social links
+social_links:
+  twitter: your_twitter_username
+  github: holaneu
