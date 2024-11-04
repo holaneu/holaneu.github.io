@@ -1,2 +1,12 @@
 title: holaneu (Vladimir Holan)
 description: A blog about tech, life and my projects.
+url: "https://holaneu.github.io"
+baseurl: ""
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-tagging
+tag_page_dir: "tags"
